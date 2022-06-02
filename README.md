@@ -10,7 +10,7 @@ Api Debug with telegram
 1. Create Telegram bot
 ![bot](https://user-images.githubusercontent.com/49947736/171563377-2675d331-c074-41dc-afd0-88ff11feaa0c.PNG)
 
-2. Add this bot to any Telegram group. Note: This bot must have Admin Permission from Your Groupe
+2. Add this bot to any Telegram group. Note: This bot must have Admin Permission from Your Group
 
 3. Find Your chat_id
 ![update](https://user-images.githubusercontent.com/49947736/171566743-e0413426-8dc8-4271-ab06-4222cbf6ab46.PNG)
