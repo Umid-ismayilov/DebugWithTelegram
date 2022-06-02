@@ -15,7 +15,7 @@ Api Debug with telegram
 3. Find Your chat_id
 ![update](https://user-images.githubusercontent.com/49947736/171566743-e0413426-8dc8-4271-ab06-4222cbf6ab46.PNG)
 
-4. Add chat_id and toke DebugWithTelegram 
+4. Add chat_id and token DebugWithTelegram 
 5. And you can Debugging in your project. Use `try catch` 
 
 Good luck 
