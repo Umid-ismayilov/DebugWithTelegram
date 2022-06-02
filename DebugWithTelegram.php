@@ -9,8 +9,10 @@ class DebugWithTelegram
 
     public function debug($data){
         $info = [
-            'chat_id' => $this->chat_id,
-            'text'    => $data
+            'chat_id'    => $this->chat_id,
+            'parse_mode' => 'html',
+            'text'       => '<pre>'.json_encode($data).'</pre>'
+            //'text'    => $data
         ];
         $params = http_build_query($info, '', '&');
         $this->sendMessage($params);
