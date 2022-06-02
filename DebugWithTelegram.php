@@ -4,12 +4,13 @@ namespace App;
 
 class DebugWithTelegram
 {
-    private $token =  'your-token';
+    private $token   =  'your-token';
+    private $chat_id =  'your-chat_id';
 
     public function debug($data){
         $info = [
-            'chat_id' => 'your-chat_id',
-            'text' => $data
+            'chat_id' => $this->chat_id,
+            'text'    => $data
         ];
         $params = http_build_query($info, '', '&');
         $this->sendMessage($params);
